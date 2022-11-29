@@ -1,0 +1,166 @@
+:root {
+
+  --navbar-color: #f5f5ef;
+  --welcomepage-color: #1F2839;
+  --projectspage-color: #B69D74;
+  --worktogether-color: #1F2839;
+  --welcomepage-fontcolor: #B69D74;
+  --footer-color: #f5f5ef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    font-family: Helvetica;
+  }
+  
+  #navbar {
+    font-size: 2rem;
+    background: var(--navbar-color);
+    padding: 2rem;
+    border-bottom: 3px solid black;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+  }
+
+  #navbar > a:link {
+    color: black;
+    padding-left: 1rem;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    padding: 1rem;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    padding: 1rem;
+    font-style: italic;
+    color: var(--welcomepage-fontcolor);
+  }
+
+  .social-icons {
+    display: flex;
+    font-size: 2rem;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .project-item:hover {
+    background: white;
+    color: black;
+  }
+  
+  a {
+    padding: 10px;
+  }
+  
+  #navbar > a:hover {
+    background-color: #1F2839;
+    color: #F5F5EF;
+    border-radius: 25px;
+    top: 0;
+    width: 100%;
+  }
+  
+  #welcome-section {
+    text-align: center;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--welcomepage-color);
+    color: white;
+    border: 3px solid black;
+  }
+  
+  #projects {
+    text-align: center;
+    height: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: var(--projectspage-color);
+    border: 3px solid black;
+  }
+
+    /*#project-tiles {
+    text-align:center;
+    height: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #3a71b1;
+
+  }*/
+
+  /*.project-container {
+    display: flex;
+    justify-content: space-evenly;
+  }*/
+
+  #work-together {
+    text-align: center;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--worktogether-color);
+  }
+
+  .advertise {
+    vertical-align: middle;
+    text-align: center;
+  }
+
+.contact-me {
+  border: 5px solid #B69D74;
+  border-radius: 20%;
+  background-color: var(--navbar-color);
+  color: black;
+  margin: 0 auto 0 auto;
+}
+
+.contact-message * {
+  vertical-align: middle;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 25%;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    margin-bottom: 1rem;
+ }
+
+.submit-button {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+fieldset {
+    margin: auto;
+  }
+
+#navbar-footer {
+  background: var(--footer-color);
+  font-size: 1rem;
+  padding: 2rem;
+  border-top: 3px solid black;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+  
+  
+  
