@@ -7,39 +7,52 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Joseph Namihas // Web Developer Portfolio</title>
   <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
 </head>
 
 <body>
-  <!-- main logo / nav -->
   <header>
-    <h1>Joseph Namihas</h1>
-    <nav>
+    <nav id="navbar">
+      <h1 class="name">Joseph Namihas</h1>
+      <section class="navbar-links">
+        <a href="#AboutMe">About Me</a>
+        <a href="#Projects">Projects</a>
+        <a href="#ContactMe'">Contact Me</a></nav> 
+      </section>
     </nav>
   </header>
 
   <!-- hero banner -->
   <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
   </section>
-
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    
+    <!-- portfolio container-->
+      <section class="projects-container">
+        <div id="about-me">About Me</div>
+        <div id="my-picture"></div>
+        <div id ="project1" class="projects"><h2>Projects</h2></div>
+        <div id ="project2" class="projects"><h2>Horiseon Project</h2></div>
+        <div id ="project3" class="projects"><h2>GitHub Page</h2></div>
+        <div id ="project4" class="projects"><h2>Blank Project</h2></div>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <!-- contact me -->
+    <section class="contact-me">
+      <h2>Contact Me</h2> <!--add one div to wrap your image, then set image style to .img { max-width: 100%; height: auto }-->
+        <section class="social-icons">
+          <a href="https://twitter.com/JoeNamihas"><i class="fab fa-twitter" style="color: #1DA1F2;"></i></a>
+          <a href="www.linkedin.com/in/JoeNamihas"><i class="fab fa-linkedin-in" style="color: #0077B5;"></i></a>
+          <a href="https://www.freecodecamp.org/JosephNamihas"><i class="fa-brands fa-free-code-camp" style="color: black;"></i></a>
+        <!-- Add GitHub -->
+        <!-- Add Web Form? -->
+        </section>
     </section>
   </main>
+
+  <footer> 
+
+    
+  </footer>
 </body>
 
 </html>
