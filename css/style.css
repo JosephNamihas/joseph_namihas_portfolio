@@ -1,13 +1,21 @@
 :root {
   --center-align: center;
   --navbar-font: Arial, Helvetica, sans-serif;
-  --background-color: #f5f5ef;
-  --background-font-color: #f5f5ef;
-  --container-font-color: #1F2839;
+  --navbar-font-color: white;
+  --background-color: grey;
+  --background-font-color: white;
+  --container-font-color: navy;
+  --border-color: black;
 }
 
 * {
   box-sizing: border-box;
+}
+
+header {
+
+  color: var(--navbar-font-color)
+
 }
 
 body {
@@ -39,10 +47,10 @@ p {
   background-image: linear-gradient(to right, #1F2839, #f5f5ef);
   padding: 1rem;
   margin-bottom: 1rem;
-  position: fixed;
   top: 1rem;
   width: 100%;
-  border: 2px solid black;
+  border: 3px solid var(--border-color);
+  border-radius: 20px;
 }
 
 .name {
@@ -59,10 +67,15 @@ p {
   padding-left: 50%;
 }
 
-.navbar-links a {
+/* Not working? */
+.navbar-links a:link {
   padding-left: 1rem;
   padding-right: 1rem;  
   font-size: 2rem;
+}
+
+#navbar-links a:hover {
+font-size: larger;
 }
 
 /* --- Hero Banner --- */
@@ -71,6 +84,7 @@ p {
   height: 200px;
   width: 100%;
   background-image: url(../images/02-hero-bg.jpg); /* placeholder */
+  padding-top: 10px;
 }
 
 /* --- About Me --- */
@@ -83,57 +97,75 @@ p {
   margin-top: 1rem;
   height: 100vh;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   grid-auto-flow: row;
   gap: 1rem;
   grid-template-areas:
     "about-me my-picture"
     "about-me my-picture"
+    "projects projects"
     "project1 project2"
     "project3 project4";
 }
 
 #about-me {
-  border: 2px solid black;
+  border: 3px solid var(--border-color);
+  border-radius: 20px;
   grid-area: about-me;
 }
 
 #my-picture {
-  border: 2px solid black;
+  border: 3px solid var(--border-color);
+  border-radius: 20px;
   grid-area: my-picture;
   width: 100%;
 }
 
+#projects {
+  border: 3px solid var(--border-color);
+  border-radius: 20px;
+  grid-area: projects;
+  place-self: center stretch;
+  text-align: center;
+}
+
 #project1 {
-  border: 2px solid black;
+  border: 3px solid var(--border-color);
+  border-radius: 20px;
   grid-area: project1;
   background-image: url(../images/02-portfolio-1.jpg);
 }
 
 #project2 {
-  border: 2px solid black;
+  border: 3px solid var(--border-color);
+  border-radius: 20px;
   grid-area: project2;
   background-image: url(../images/Horiseon\ Banner.PNG);
 }
 
 #project3 {
-  border: 2px solid black;
+  border: 3px solid var(--border-color);
+  border-radius: 20px;
   grid-area: project3;
   background-image: url(../images/02-portfolio-3.jpg);
 }
 
 #project4 {
-  border: 2px solid black;
+  border: 3px solid var(--border-color);
+  border-radius: 20px;
   grid-area: project4;
   background-image: url(../images/02-portfolio-4.jpg);
 }
 
-.contact-me {
+/* --- Contact Me --- */
+
+#contact-me {
   height: 50vh;
   text-align: center;
 }
 
 .social-icons {
   align-items: center;
-  font-size: 1rem;
+  font-size: 3rem;
 }
+
