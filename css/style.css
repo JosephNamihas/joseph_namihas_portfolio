@@ -2,11 +2,12 @@
   --center-align: center;
   --navbar-font: Arial, Helvetica, sans-serif;
   --navbar-font-color: white;
-  --background-color: grey;
+  --background-color: silver;;
   --background-font-color: white;
   --container-font-color: navy;
   --border-color: black;
   --project-borders: 5px solid black;
+  --divider-colour: linear-gradient(to right, #1F2839, #f5f5ef);
 }
 
 * {
@@ -86,13 +87,13 @@ padding-left: 10px;
 }
 
 #about-me p {
-  font-size: 2rem;
+
   color: black;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 #about-me h2 {
-  margin: 1rem;
+  margin: 2rem;
 }
 
 #my-picture {
@@ -102,7 +103,7 @@ padding-left: 10px;
   max-height: 100%;
 }
 
-/* --- Work Projects --- */
+/* --- Grid --- */
 
 .projects-container {
 
@@ -111,6 +112,7 @@ padding-left: 10px;
   margin-top: 1rem;
   margin-left: 20%;
   height: 100vw;
+  gap: 1rem;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
   grid-auto-flow: row;
@@ -126,9 +128,13 @@ padding-left: 10px;
   grid-area: projects;
   place-self: center stretch;
   text-align: center;
+  border: 3px solid black;
+  border-radius: 20px;
+  background: var(--divider-colour);
+  color: white;
 }
 
-/* --- Container Items ---*/
+/* --- Grid Items ---*/
 #project1 {
   grid-area: project1;
   border: var(--project-borders);
@@ -151,12 +157,12 @@ padding-left: 10px;
 
 #project3 {
   grid-area: project3;
-  border: var(--project-borders);
 }
 
 .work-in-progress {
   height: 100%;
   max-width: 100%;
+  border: 3px solid white;
 }
 
 /* --- Contact Me --- */
@@ -164,10 +170,17 @@ padding-left: 10px;
 #contact-me {
   margin-left: 20%;
   text-align: center;
+  color: black;
 }
 
 .social-icons {
   font-size: 3rem;
+}
+
+footer {
+  text-align: center;
+  margin-left: 20%;
+
 }
 
 
@@ -229,5 +242,10 @@ it was something to do how I initially structured my site. Will look into this*/
 
   #contact-me {
     text-align: center;
+  }
+
+  footer {
+    text-align: center;
+
   }
 }
