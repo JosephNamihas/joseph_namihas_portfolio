@@ -22,6 +22,12 @@ Slowly getting more comfortable with CSS Grid, but had to do quite a bit of rese
 
 Colour schemes, borders, images...I found this more troublesome than I would have originally thought. Sometimes, things you think of, don't translate well to page.
 
+## For Next Time
+
+Come up with a solid design process. I changed my mine so many times during this project and it cost me a lot of time. In essence, I rebuilt the website three times. Next time, I will try doing an initial design with wireframes. Make sure to plan out all my formatting so I won't get bitten by adding media queries at the end.
+
+I'll play around with a lot more CSS next time. Stop links going purple once clicked. Creating my own banners and using animation / hover elements.
+
 ## Installation
 
 Run the website by following the GitGub Pages link: 
@@ -33,7 +39,7 @@ For some reason I couldn't upload a web screenshot like last time. I have broken
 
 ![About Me](/images/about-me.png)
 ![Projects](/images/projects.png)
-![Contact Me](/images/contactme.png
+![Contact Me](/images/contactme.png)
 
 ## Credits
 
