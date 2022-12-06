@@ -29,7 +29,11 @@ https://josephnamihas.github.io/joseph_namihas_portfolio/
 
 ## Useage
 
-Insert mock up
+For some reason I couldn't upload a web screenshot like last time. I have broken it down into the three main sections
+
+![About Me](/images/about-me.png)
+![Projects](/images/projects.png)
+![Contact Me](/images/contactme.png
 
 ## Credits
 
