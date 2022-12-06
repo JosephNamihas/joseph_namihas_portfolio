@@ -8,31 +8,40 @@ Currently, I only have two projects to showcase. I have left a project window bl
 
 My motivation for this project was to provide me with a piece of work which I can update throughout my learning. Anything new I learn that I deem valuable to showcase, I will add in some capacity to this portfolio.
 
+In the coming year, I will no doubt be relying on this page to showcase my talents and what I can offer a potential employer.
 
+As a note, I would like to say that I am not entirely happy with the current design of the page. There's still some functionality I need to add, which I simply didn't have time to get right without sweeping changes (media queries). The general look of it is not appealing right now and I will go back and make it more visual in the coming weeks. 
 
 ## Challenges Faced
 
 ### Getting hands on with CSS Grid
 
-Slowly getting more comfortable with CSS Grid. 
+Slowly getting more comfortable with CSS Grid, but had to do quite a bit of research on wrapping images within the grid cells. I'm still not entirely happy with the current look, but this will be rectified in due course.
 
 ### Design
 
-Colour schemes, borders, images...I found this more troublesome than I would have originally thought. Sometimes, things you think of, don't translate well to page. 
-
-### Applying Images
-
-Getting certain images to fit into CSS Grid Cells, making sure they're the right measurements. 
+Colour schemes, borders, images...I found this more troublesome than I would have originally thought. Sometimes, things you think of, don't translate well to page.
 
 ## Installation
 
 Run the website by following the GitGub Pages link: 
+https://josephnamihas.github.io/joseph_namihas_portfolio/
 
 ## Useage
 
 Insert mock up
 
 ## Credits
+
+Credits to the following for the inspriration and assistance during course lessons.
+
+- Dawid Zajac (zajacek19@gmail.com)
+- Lil Corris (eil-j@hotmail.co.uk)
+- Sanele Mbuthuma (saneledm@outlook.com)
+- Ryan O'Connor (TA)
+
+
+https://css-tricks.com/snippets/css/complete-guide-grid/
 
 ## License 
 
