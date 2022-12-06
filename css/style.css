@@ -14,12 +14,12 @@
 
 header {
 
+
   color: var(--navbar-font-color)
 
 }
 
 body {
-  margin-top: 5%;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
@@ -43,14 +43,17 @@ p {
 /* --- Navigation Bar --- */
 
 #navbar {
-  font-size: 1rem;
+  font-size: 2rem;
   background-image: linear-gradient(to right, #1F2839, #f5f5ef);
   padding: 1rem;
   margin-bottom: 1rem;
-  top: 1rem;
   width: 100%;
   border: 3px solid var(--border-color);
   border-radius: 20px;
+}
+
+.aboutme-link, .projects-link, .contactme-link {
+padding-left: 10px;
 }
 
 .name {
@@ -67,17 +70,6 @@ p {
   padding-left: 50%;
 }
 
-/* Not working? */
-.navbar-links a:link {
-  padding-left: 1rem;
-  padding-right: 1rem;  
-  font-size: 2rem;
-}
-
-#navbar-links a:hover {
-font-size: larger;
-}
-
 /* --- Hero Banner --- */
 
 .hero-banner {
@@ -85,9 +77,28 @@ font-size: larger;
   width: 100%;
   background-image: url(../images/02-hero-bg.jpg); /* placeholder */
   padding-top: 10px;
+  background-size: cover;
 }
 
 /* --- About Me --- */
+
+#about-me {
+  grid-area: about-me;
+}
+
+#about-me p {
+  font-size: 1.5rem;
+  color: black;
+
+}
+
+#my-picture {
+
+  grid-area: my-picture;
+  width: 100%;
+  max-height: 100%;
+}
+
 
 /* --- Work Projects --- */
 .projects-container {
@@ -95,77 +106,67 @@ font-size: larger;
   display: grid;
   color: var(--container-font-color);
   margin-top: 1rem;
-  height: 100vh;
+  margin-left: 20%;
+  height: 100vw;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
   grid-auto-flow: row;
-  gap: 1rem;
   grid-template-areas:
     "about-me my-picture"
-    "about-me my-picture"
     "projects projects"
-    "project1 project2"
-    "project3 project4";
+    "project1 project1"
+    "project2 project3";
 }
 
-#about-me {
-  border: 3px solid var(--border-color);
-  border-radius: 20px;
-  grid-area: about-me;
-}
 
-#my-picture {
-  border: 3px solid var(--border-color);
-  border-radius: 20px;
-  grid-area: my-picture;
-  width: 100%;
-}
-
+/* --- Content Divider ---*/
 #projects {
-  border: 3px solid var(--border-color);
-  border-radius: 20px;
   grid-area: projects;
   place-self: center stretch;
   text-align: center;
 }
 
+/* --- Container Items ---*/
 #project1 {
-  border: 3px solid var(--border-color);
-  border-radius: 20px;
   grid-area: project1;
-  background-image: url(../images/02-portfolio-1.jpg);
+  border: 5px solid black;
+}
+
+.horiseon-project {
+  height: 100%;
+  max-width: 100%;
 }
 
 #project2 {
-  border: 3px solid var(--border-color);
-  border-radius: 20px;
   grid-area: project2;
-  background-image: url(../images/Horiseon\ Banner.PNG);
+  border: 5px solid black;
+}
+
+.pre-work-project {
+  height: 100%;
+  max-width: 100%;
 }
 
 #project3 {
-  border: 3px solid var(--border-color);
-  border-radius: 20px;
   grid-area: project3;
-  background-image: url(../images/02-portfolio-3.jpg);
+  border: 5px solid black;
 }
 
-#project4 {
-  border: 3px solid var(--border-color);
-  border-radius: 20px;
-  grid-area: project4;
-  background-image: url(../images/02-portfolio-4.jpg);
+.work-in-progress {
+  height: 100%;
+  max-width: 100%;
 }
 
 /* --- Contact Me --- */
 
 #contact-me {
-  height: 50vh;
+  margin-left: 20%;
   text-align: center;
 }
 
 .social-icons {
-  align-items: center;
   font-size: 3rem;
 }
 
+/* Media queries would have gone here. Couldn't get them to work properly. Think
+it was something to do how I initially structured my site. 

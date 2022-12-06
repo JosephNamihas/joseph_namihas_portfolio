@@ -1,10 +1,14 @@
-# Unit 2 Challenge: Portfolio
+# Joseph Namihas - Web Portfolio
 
 ## My Web Portfolio
 
 This portfolio is a collection of projects to showcase to future employers. I will slowly be building this up to reflect the new skills I learn and to add projects I complete.
 
-Currently, I only have two projects to showcase. I have left two project windows blank to highlight my intention to fill them in the coming weeks and months.
+Currently, I only have two projects to showcase. I have left a project window blank to highlight my intention to fill them in the coming weeks and months.
+
+My motivation for this project was to provide me with a piece of work which I can update throughout my learning. Anything new I learn that I deem valuable to showcase, I will add in some capacity to this portfolio.
+
+
 
 ## Challenges Faced
 
