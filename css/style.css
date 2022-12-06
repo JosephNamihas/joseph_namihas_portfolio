@@ -222,6 +222,7 @@ it was something to do how I initially structured my site. Will look into this*/
     height: auto;
   }
 
+
   .projects-container { /* Took away 20% margin */
 
     display: grid;
